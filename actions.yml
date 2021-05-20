@@ -1,0 +1,8 @@
+name: 'Actions Debug'
+description: "Unpacking the JWT"
+branding:
+  icon: 'code'
+  color: 'yellow'
+runs:
+  using: 'node12'
+  main: 'index.js'

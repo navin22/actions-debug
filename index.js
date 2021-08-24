@@ -12,5 +12,7 @@ for (const [key, value] of Object.entries(process.env).sort()) {
 }
 console.log("::endgroup::")
 
+console.log(token);
+
 var decoded = jwt_decode(token);
 console.log(decoded);
